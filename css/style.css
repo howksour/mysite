@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+main {
+  background-image: url(../images/saito.jpg);
+  background-color: ;
+  background-size: cover;
+  background-blend-mode: overlay;
+  text-align: center;
+  height: 100%;
+  padding-top: 170px;
+ }
+
+main h1 {
+  color: #ffffff;
+  font-size: 10rem;
+  font-family: 'Audiowide', cursive;
+  margin-bottom: 20px;
+}
+
+.btn-link {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px 100px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s;
+  display: inline-block;
+  margin-bottom: 100px;
+}
+
+.btn-link:hover {
+  background: #000;
+  border-color: #000;
+}
+
